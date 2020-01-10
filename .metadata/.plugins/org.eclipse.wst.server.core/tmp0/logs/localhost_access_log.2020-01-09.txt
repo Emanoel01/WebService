@@ -1,0 +1,15 @@
+127.0.0.1 - - [09/Jan/2020:22:38:08 -0300] "GET / HTTP/1.1" 404 705
+127.0.0.1 - - [09/Jan/2020:22:38:09 -0300] "POST /SoapProject/services/AdminService HTTP/1.0" 200 291
+127.0.0.1 - - [09/Jan/2020:22:38:09 -0300] "POST /SoapProject/services/AdminService HTTP/1.0" 200 4165
+127.0.0.1 - - [09/Jan/2020:22:38:33 -0300] "GET / HTTP/1.1" 404 705
+127.0.0.1 - - [09/Jan/2020:22:38:35 -0300] "GET /SoapProjectClient/sampleWebServiceProxy/Result.jsp HTTP/1.1" 200 118
+127.0.0.1 - - [09/Jan/2020:22:38:36 -0300] "GET /SoapProjectClient/sampleWebServiceProxy/Method.jsp HTTP/1.1" 200 441
+127.0.0.1 - - [09/Jan/2020:22:38:36 -0300] "GET /SoapProjectClient/sampleWebServiceProxy/Input.jsp HTTP/1.1" 200 127
+127.0.0.1 - - [09/Jan/2020:22:38:36 -0300] "GET /SoapProjectClient/sampleWebServiceProxy/TestClient.jsp HTTP/1.1" 200 586
+0:0:0:0:0:0:0:1 - - [09/Jan/2020:22:38:37 -0300] "GET /SoapProjectClient/sampleWebServiceProxy/TestClient.jsp?endpoint=http://localhost:14849/SoapProject/services/WebService HTTP/1.1" 200 654
+0:0:0:0:0:0:0:1 - - [09/Jan/2020:22:38:37 -0300] "GET /SoapProjectClient/sampleWebServiceProxy/Method.jsp HTTP/1.1" 200 441
+0:0:0:0:0:0:0:1 - - [09/Jan/2020:22:38:37 -0300] "GET /SoapProjectClient/sampleWebServiceProxy/Input.jsp HTTP/1.1" 200 127
+0:0:0:0:0:0:0:1 - - [09/Jan/2020:22:38:37 -0300] "GET /SoapProjectClient/sampleWebServiceProxy/Result.jsp?endpoint=http://localhost:14849/SoapProject/services/WebService& HTTP/1.1" 200 118
+0:0:0:0:0:0:0:1 - - [09/Jan/2020:22:38:40 -0300] "GET /SoapProjectClient/sampleWebServiceProxy/Input.jsp?method=13 HTTP/1.1" 200 434
+127.0.0.1 - - [09/Jan/2020:22:38:45 -0300] "POST /SoapProject/services/WebService HTTP/1.0" 200 435
+0:0:0:0:0:0:0:1 - - [09/Jan/2020:22:38:45 -0300] "POST /SoapProjectClient/sampleWebServiceProxy/Result.jsp HTTP/1.1" 200 168
